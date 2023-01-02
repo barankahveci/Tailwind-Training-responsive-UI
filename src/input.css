@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .firstP{
+        @apply text-center md:text-start md:flex p-2 cursor-default hover:text-black hover:bg-blue-50 hover:transition-all duration-300 hover:rounded text-ilk items-center gap-x-5 before:w-1 before:rounded before:h-full text-lg   before:bg-gradient-to-b before:from-ilk before:to-ikinci 
+    }
+    .section{
+        @apply bg-white w-[36vh] md:w-[60vh] md:h-[40vh] rounded shadow-lg
+    }
+}
